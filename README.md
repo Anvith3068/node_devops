@@ -71,6 +71,26 @@ Automation	       -       Shell Scripting
 
 Local Environment	 -      WSL (Ubuntu)
 
+##
+## SSH Access to EC2 Server
+ssh -i ~/.ssh/devopskey.pem ubuntu@34.206.228.220
+
+## Explanation
+
+•	ssh – Secure Shell client
+
+•	-i ~/.ssh/devopskey.pem – Path to your private key file
+
+•	ubuntu – Default username for Ubuntu EC2 instances
+
+•	34.206.228.220 – Public IP address of the EC2 server
+
+## Notes
+
+**Ensure the key file has correct permissions:**
+
+chmod 400 ~/.ssh/devopskey.pem
+
 
 ## Screenshots
 
