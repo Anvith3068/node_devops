@@ -91,6 +91,21 @@ ssh -i ~/.ssh/devopskey.pem ubuntu@34.206.228.220
 
 chmod 400 ~/.ssh/devopskey.pem
 
+## Docker Deployment Script (deploy.sh)
+
+#!/bin/bash
+set -e
+
+DOCKER_USER=anvith3068
+IMAGE_NAME=node-devops-app
+
+docker stop nodeapp || true
+docker rm nodeapp || true
+
+docker pull $DOCKER_USER/$IMAGE_NAME:latest
+
+docker run -d --restart unless-stopped -p 80:3000 --name nodeapp $DOCKER_USER/$IMAGE_NAME:latest
+
 
 ## Screenshots
 
