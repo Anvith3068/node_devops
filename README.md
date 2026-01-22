@@ -13,6 +13,7 @@ This project demonstrates a complete DevOps CI/CD workflow where a Node.js appli
 •	Built and managed from WSL (Windows Subsystem for Linux)
 
 **Architecture**
+
 Developer (WSL)
 │
 │ git push
