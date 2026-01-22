@@ -1,4 +1,5 @@
 **End‑to‑End CI/CD Pipeline for Node.js Application on AWS using Jenkins & Docker**
+
 This project demonstrates a complete DevOps CI/CD workflow where a Node.js application is automatically built, containerized, pushed to Docker Hub, and deployed to an AWS EC2 instance using Jenkins pipelines triggered by GitHub webhooks.
 
 **Project Highlights**
