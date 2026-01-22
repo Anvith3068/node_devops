@@ -3,6 +3,7 @@
 This project demonstrates a complete DevOps CI/CD workflow where a Node.js application is automatically built, containerized, pushed to Docker Hub, and deployed to an AWS EC2 instance using Jenkins pipelines triggered by GitHub webhooks.
 
 **Project Highlights**
+
 •	Automated CI/CD pipeline using Jenkins
 •	Containerization with Docker
 •	Deployment on AWS EC2 (Ubuntu)
